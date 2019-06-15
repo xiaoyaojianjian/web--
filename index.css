@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    vertical-align: top;
+}
+li{
+    list-style: none;
+}
+.son{
+    display: none;
+}
+.top, .header , .track , .list,.main{ 
+    width: 1200px;
+    margin:0 auto;
+}
+.top{
+    height: 38px;
+}
+.t_content{
+    float:right;
+    line-height: 38px;
+    font-size:15px;
+}
+.top .father{
+    display: inline-block;
+}
+.t_content span,.a1,.li1{
+    margin-right:20px;
+}
+.t_content .li1{
+    float: left;
+}
+.t_content .a1{
+    font-weight: bold;
+}
+.t_content .img1{
+    margin-bottom: 5px;
+}
+.t_content .img2{
+    padding-top:12px;
+}
+.t_content li:hover .son{
+    display:block;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+}
+.t_content .son li:hover a{
+    color:#3aa747;
+}
+.header{
+    height: 61px;
+    padding-top:40px;
+}
+form{
+    display: inline-block;
+    margin-right: 200px;
+    margin-left:110px;
+}
+form .search{
+    width: 540px;
+    height: 50px;
+    border:1px solid black;
+    border-right:none;
+    margin-right:-5px;
+    text-align: center;
+}
+form .submit{
+    width: 60px;
+    height: 52px;
+    border:1px solid black;
+    border-left:2px solid #ccc;
+    background:url(search.png) no-repeat center center;
+    vertical-align:bottom;
+}
+ .logo, .cart{
+    vertical-align: bottom;
+}
+.nav{
+    height: 65px;
+    border-bottom:4px solid #3aa747;
+}
+.nav .father{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top:30px;
+}
+.nav .main-li{
+    width: 120px;
+    float: left;
+    text-align: center;
+    line-height:31px;   
+}
+.nav .main-li:first-child{
+    font-weight: bold;
+}
+.nav .main-li+li:hover{
+    border-bottom:3px solid #438d4a;
+}
+.nav .main-li:hover .main-a{
+    color:#3aa747;
+}
+.nav .main-li:hover .son{
+    display: block;
+}
+.nav .main-li:hover a{
+    color:#fff;
+}
+.nav .sub-li:hover{
+    background-color: #3aa747;
+}
+.banner{
+    height: 676px;
+    background-image: url(banner.png);
+}
+.track{
+   line-height: 60px;
+}
+.t-num{
+    float: right;
+}
+.list{
+    border-collapse: collapse;
+    border-left:1px solid #cccccc;
+    border-right:1px solid #cccccc;
+}
+.list td{
+  text-align: center;  
+  border-top:1px solid #cccccc;
+  border-bottom:1px solid #cccccc;
+  width: 120px;
+  line-height: 45px;
+}
+ .list td a:hover{
+    color:rgb(58,167,71);
+}
+.list .td1{
+    background-color: #e5e5e5;
+}
+.main{
+    height: 760px;
+    margin-top: 54px;
+}
+.main .div1{
+    width: 274px;
+    height: 295px;
+    border: 1px solid #888;
+    float:left;
+    text-align: center;
+    margin: 12px;
+    position: relative;
+}
+.main .div1 .price{
+    width: 274px;
+    height: 50px;
+    background-color:rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    color:white;
+    line-height: 25px;
+}
+.main .div1 .bigprice{
+    display:none;
+    width: 274px;
+    height: 195px;
+    background-color:rgba(0,0,0,0.7);
+    position: absolute;
+    top:0px;
+    color:white;
+    padding-top: 100px;
+    font-size: 23px;
+    line-height: 50px;
+}
+.main .div1 .bigprice .p3{
+    width: 40px;
+    height: 2px;
+    background-color: #7f3b38;
+    margin:0 auto;
+}
+.main .div1:hover .bigprice{
+    display:block;
+}
+.copyright{
+    height: 103px;
+    background-color: #f5f5f5;
+}
+.copyright ul{
+    width: 1200px;
+    margin:0 auto;
+}
+.copyright li{
+    width: 258px;
+    height: 50px;
+    border-right: #e0e0e0 1px solid;
+    float: left;
+    margin-top: 29px;
+    margin-left: 40px;
+}
+.copyright img{
+    float: left;
+}
+.copyright p{
+    float: left;
+    margin-left:30px;
+}
+.copyright .p1{
+    font-size: 20px;
+}
+.copyright .p2{
+    font-size: 13px;
+}
+.footnote{
+    height: 79px;
+    background-color: #323232;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.serve{
+    position:fixed;
+    top:208px;
+    right: 0;
+}
+.serve li{
+    background-color: #323232;
+    width: 80px;  
+}
+.serve li a{
+    display: block;
+    width: 70px;
+    height:98px;
+    margin: 0 auto;
+    text-align: center;
+}
+.serve li+li a{
+    border-top: #575c5a solid 2px;
+}
+.serve li img{
+    padding-top: 30px;
+}
