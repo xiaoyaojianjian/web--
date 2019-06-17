@@ -49,6 +49,7 @@ li{
     display:block;
     position: absolute;
     z-index: 1;
+    line-height: 25px;
     background-color: #fff;
 }
 .t_content .son li:hover a{
@@ -60,27 +61,27 @@ li{
 }
 form{
     display: inline-block;
-    margin-right: 200px;
-    margin-left:110px;
+    margin:0 150px 0 150px;
+    vertical-align: baseline;
 }
-form .search{
+ .search{
+    float: left;
     width: 540px;
     height: 50px;
     border:1px solid black;
-    border-right:none;
-    margin-right:-5px;
+    border-right:1px solid #ccc;
     text-align: center;
+    outline-color: #3aa747;
 }
-form .submit{
+.submit{
+    float: left;
     width: 60px;
     height: 52px;
     border:1px solid black;
-    border-left:2px solid #ccc;
+    border-left:1px solid #ccc;
     background:url(search.png) no-repeat center center;
-    vertical-align:bottom;
-}
- .logo, .cart{
-    vertical-align: bottom;
+    outline-color: #3aa747;
+    cursor: pointer;
 }
 .nav{
     height: 65px;
@@ -199,8 +200,7 @@ form .submit{
     height: 50px;
     border-right: #e0e0e0 1px solid;
     float: left;
-    margin-top: 29px;
-    margin-left: 40px;
+    margin:29px 0 0 40px;
 }
 .copyright img{
     float: left;
@@ -218,11 +218,11 @@ form .submit{
 .footnote{
     height: 79px;
     background-color: #323232;
+    padding-top: 20px;
     color: white;
     font-size: 14px;
     text-align: center;
     line-height: 30px;
-    padding-top: 20px;
 }
 .serve{
     position:fixed;
